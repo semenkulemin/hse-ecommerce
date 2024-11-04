@@ -1,0 +1,214 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    margin-right: 200px; 
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header-icons {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+}
+
+.header-icons a {
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon {
+    width: 40px; 
+    height: 40px;
+}
+
+
+.contact-banner {
+    background-image: url('../content/image.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-banner h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Секция формы */
+.contact-form-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+.contact-intro {
+    max-width: 600px;
+}
+
+.contact-intro h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.contact-intro p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Стили формы */
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-info {
+    max-width: 250px;
+}
+
+.contact-info h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+.contact-info p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section h5 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-newsletter form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.footer-newsletter button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.footer-payments span {
+    margin-right: 10px;
+}
